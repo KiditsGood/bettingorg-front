@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Title</title>
+</head>
+<body>
+<header class="header">
+  <div id="burger">
+    <span></span>
+  </div>
+  <a href="/" class="header__logo">
+    <img src="img/logo.svg" alt="" class="header__logo-img">
+  </a>
+  <a href="" class="header__balance">
+    <img src="img/balance.svg" alt="" class="header__balance-img">
+  </a>
+</header>
+<section class="tabs">
+  <p class="tabs__item active">Рейтинг пользователей</p>
+</section>
+<section class="burger">
+  <a href="" class="burger__item">Ближайшие матчи</a>
+  <a href="" class="burger__item">Лайвы</a>
+  <a href="" class="burger__item">Турниры</a>
+  <a href="" class="burger__item">Результаты</a>
+  <a href="" class="burger__item">Рейтинг</a>
+  <a href="" class="burger__item">Мои ставки</a>
+  <div class="burger__user">
+    <img src="img/avatar.png" alt="" class="burger__user-avatar">
+    <div class="burger__user-data">
+      <p class="burger__user-data--item">Андрей</p>
+      <p class="burger__user-data--item">12259.91</p>
+    </div>
+  </div>
+</section>
+<main class="wrapper">
+  <section class="rating">
+    <div class="rating__left">
+      <p class="rating__big">Пользователь</p>
+      <p class="rating__small">Андрей</p>
+      <p class="rating__small">Евгений</p>
+    </div>
+    <div class="rating__right">
+      <p class="rating__big">Рейтинг</p>
+      <p class="rating__small">0</p>
+      <p class="rating__small">0</p>
+    </div>
+  </section>
+</main>
+<section class="overlay"></section>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="js/burger.js"></script>
+</body>
+</html>

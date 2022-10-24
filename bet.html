@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Title</title>
+</head>
+<body>
+<header class="header">
+  <div id="burger">
+    <span></span>
+  </div>
+  <a href="/" class="header__logo">
+    <img src="img/logo.svg" alt="" class="header__logo-img">
+  </a>
+  <a href="" class="header__balance">
+    <img src="img/balance.svg" alt="" class="header__balance-img">
+  </a>
+</header>
+<section class="tabs">
+  <p class="tabs__item active">Пари</p>
+</section>
+<section class="burger">
+  <a href="" class="burger__item">Ближайшие матчи</a>
+  <a href="" class="burger__item">Лайвы</a>
+  <a href="" class="burger__item">Турниры</a>
+  <a href="" class="burger__item">Результаты</a>
+  <a href="" class="burger__item">Рейтинг</a>
+  <a href="" class="burger__item">Мои ставки</a>
+  <div class="burger__user">
+    <img src="img/avatar.png" alt="" class="burger__user-avatar">
+    <div class="burger__user-data">
+      <p class="burger__user-data--item">Андрей</p>
+      <p class="burger__user-data--item">12259.91</p>
+    </div>
+  </div>
+</section>
+<main class="wrapper">
+  <section class="pari">
+    <p class="pari__title">Ординар</p>
+    <div class="pari__matches">
+      <div class="pari__matches-item">
+        <div class="pari__matches-item--left">
+          <p class="pari__big">Матч #1935787 . NCAA</p>
+          <div class="pari__teams">
+            <p class="pari__small">Миссисипи Ребелс</p>
+            <p class="pari__small">Оберн</p>
+          </div>
+          <p class="pari__big">Победитель: 1</p>
+        </div>
+        <div class="pari__matches-item--right">
+          <img src="img/close.svg" alt="" class="pari__close">
+          <p class="pari__coefficient">х1.13</p>
+        </div>
+      </div>
+    </div>
+    <div class="pari__bet">
+      <p class="pari__bet-item">Коэфициент: х1.13</p>
+      <div class="pari__bet-price">
+        <p class="pari__bet-item">Ставка:</p>
+        <input type="number" class="pari__bet-price--input" value="1500">
+      </div>
+      <p class="pari__bet-item">Потенциальный выигрыш: 0.00</p>
+      <button class="pari__bet-confirm">Заключить пари</button>
+    </div>
+  </section>
+</main>
+<section class="overlay"></section>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="js/burger.js"></script>
+</body>
+</html>
