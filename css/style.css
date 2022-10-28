@@ -638,3 +638,73 @@ html.hidden{
     padding: 13px 0;
     margin-top: 10px;
 }
+.match{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+.match__title{
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 900;
+}
+.match__name{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+.math__name-item{
+    font-size: 12px;
+    line-height: 12px;
+}
+.match__field{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.match__field-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.match__field-item--team{
+    font-size: 12px;
+    line-height: 10px;
+}
+.match__winner{
+    font-size: 13px;
+    line-height: 13px;
+    color: white;
+    background: #F8AD1D;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    padding: 9px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.match__bet{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.match__bet-item{
+    font-size: 12px;
+    line-height: 9px;
+    background: #FFFFFF;
+    box-shadow: 0 0 6px rgba(97, 97, 97, 0.25);
+    border-radius: 3px;
+    padding: 13px 0;
+    width: 50%;
+}
+.not--available{
+    background: #FE8C8C;
+}
+.video--match{
+    background: #66A8CB;
+}

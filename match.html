@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Title</title>
+</head>
+<body>
+<header class="header">
+  <div id="burger">
+    <span></span>
+  </div>
+  <a href="/" class="header__logo">
+    <img src="img/logo.svg" alt="" class="header__logo-img">
+  </a>
+  <a href="" class="header__balance">
+    <img src="img/balance.svg" alt="" class="header__balance-img">
+  </a>
+</header>
+<section class="tabs">
+  <p class="tabs__item active">Пари</p>
+</section>
+<section class="burger">
+  <a href="" class="burger__item">Ближайшие матчи</a>
+  <a href="" class="burger__item">Лайвы</a>
+  <a href="" class="burger__item">Турниры</a>
+  <a href="" class="burger__item">Результаты</a>
+  <a href="" class="burger__item">Рейтинг</a>
+  <a href="" class="burger__item">Мои ставки</a>
+  <div class="burger__user">
+    <img src="img/avatar.png" alt="" class="burger__user-avatar">
+    <div class="burger__user-data">
+      <p class="burger__user-data--item">Андрей</p>
+      <p class="burger__user-data--item">12259.91</p>
+    </div>
+  </div>
+</section>
+<main class="wrapper">
+  <section class="match">
+    <p class="match__title">Матч #1973946</p>
+    <div class="match__name">
+      <p class="math__name-item">NCAA</p>
+      <p class="math__name-item">2022-10-29 03:00:00</p>
+    </div>
+    <div class="match__field">
+      <div class="match__field-item">
+        <img src="img/match.svg" alt="" class="match__field-item--image">
+        <p class="match__field-item--team">Флорида Пантерс</p>
+      </div>
+      <div class="match__field-item">
+        <p class="match__field-item--team">VS</p>
+      </div>
+      <div class="match__field-item">
+        <img src="img/match.svg" alt="" class="match__field-item--image">
+        <p class="match__field-item--team">Луизиана Тех.</p>
+      </div>
+    </div>
+    <p class="match__winner">Победитель</p>
+    <div class="match__bet">
+      <button type="button" class="match__bet-item">Флорида Пантерс - х3.3</button>
+      <button type="button" class="match__bet-item">Ничья - х21</button>
+      <button type="button" class="match__bet-item">Луизиана Тех. - х1.3</button>
+    </div>
+  </section>
+</main>
+<section class="overlay"></section>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="js/live.js"></script>
+<script src="js/burger.js"></script>
+</body>
+</html>
