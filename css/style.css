@@ -708,3 +708,146 @@ html.hidden{
 .video--match{
     background: #66A8CB;
 }
+.block__express{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.visible{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.block__express-visible{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.visible__name{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.visible__name-text{
+    font-size: 8px;
+    font-weight: 800;
+    line-height: 9px;
+}
+.visible__name-arrow{
+    width: 10px;
+}
+.visible__coef{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.visible__coef-item{
+    font-size: 8px;
+    font-weight: 900;
+    line-height: 8px;
+}
+.visible__coef-item.red{
+    color: #D90000;
+}
+.visible__coef-item.green{
+    color: #3DA453;
+}
+.block__express-hidden{
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+}
+.hidden{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 90%;
+}
+.visible:not(:last-child) {
+    border-bottom: 1px solid #8080804D;
+    padding-bottom: 15px;
+}
+.hidden__item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+.hidden__item-left{
+    display: flex;
+    align-items: flex-start;
+    max-width: 204px;
+    gap: 10px;
+    flex-direction: column;
+}
+.hidden__winner{
+    font-size: 10px;
+    line-height: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.hidden__pair{
+    font-size: 10px;
+    line-height: 10px;
+    color: #F8AD1D;
+}
+.hidden__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.hidden__info-item{
+    font-size: 9px;
+    line-height: 9px;
+    color: #00000073;
+}
+.hidden__delete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hidden__item-right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.block__express-hidden[style*="display: block"], .date__hidden[style*="display: block"]{
+    display:flex!important;
+}
+.date__hidden{
+    display: none;
+    flex-direction: column;
+    gap: 0;
+}
+.date__hidden .block__date-text{
+    padding: 10px 15px;
+}
+.date__hidden .block__date-text:not(:first-child){
+    border-top: 1px solid #8080804D;
+}
+.block__date{
+    border-bottom: 1px solid #F8AD1D;
+}
+.block__date-text.active{
+    background: #F8AD1D40;
+    border-top: none !important;
+}
+.header__balance{
+    position: relative;
+}
+.header__balance-value{
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background: #FE8C8C;
+    font-size: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -5px;
+    bottom: 0;
+}

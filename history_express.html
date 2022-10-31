@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Title</title>
+</head>
+<body>
+<header class="header">
+  <div id="burger">
+    <span></span>
+  </div>
+  <a href="/" class="header__logo">
+    <img src="img/logo.svg" alt="" class="header__logo-img">
+  </a>
+  <a href="" class="header__balance">
+    <img src="img/balance.svg" alt="" class="header__balance-img">
+    <p class="header__balance-value">2</p>
+  </a>
+</header>
+<section class="tabs">
+  <p class="tabs__item active">Текущие ставки</p>
+</section>
+<section class="burger">
+  <a href="" class="burger__item">Ближайшие матчи</a>
+  <a href="" class="burger__item">Лайвы</a>
+  <a href="" class="burger__item">Турниры</a>
+  <a href="" class="burger__item">Результаты</a>
+  <a href="" class="burger__item">Рейтинг</a>
+  <a href="" class="burger__item">Мои ставки</a>
+  <div class="burger__user">
+    <img src="img/avatar.png" alt="" class="burger__user-avatar">
+    <div class="burger__user-data">
+      <p class="burger__user-data--item">Андрей</p>
+      <p class="burger__user-data--item">12259.91</p>
+    </div>
+  </div>
+</section>
+<main class="wrapper">
+  <section class="user__history">
+    <div class="user__history-info">
+      <img src="img/avatar_big.png" alt="" class="user__history-info--image">
+      <div class="user__history-info--data">
+        <p class="history__data-item">Андрей</p>
+        <p class="history__data-item">Рейтинг: 0</p>
+        <p class="history__data-item">Баланс: 12259.91</p>
+      </div>
+    </div>
+    <button class="user__history-logout">
+      <img src="img/logout.svg" alt="" class="user__history-logout--icon">
+    </button>
+  </section>
+  <section class="block">
+    <p class="block__title">История</p>
+    <div class="block__tabs">
+      <button class="block__tabs-item">Ординар</button>
+      <button class="block__tabs-item active">Экспресс</button>
+      <button class="block__tabs-item">Все</button>
+    </div>
+    <div class="block__date">
+      <div class="block__date-text">
+        <p class="block__date-text--name">Вся история</p>
+        <p class="block__date-text--value">(05 окт. 2022 - 12 окт. 2022)</p>
+      </div>
+      <img src="img/calendar.svg" alt="" class="block__date-calendar">
+    </div>
+    <div class="date__hidden">
+      <div class="block__date-text">
+        <p class="block__date-text--name">За последнюю неделю</p>
+        <p class="block__date-text--value">(05 окт. 2022 - 12 окт. 2022)</p>
+      </div>
+      <div class="block__date-text">
+        <p class="block__date-text--name">За последний месяц</p>
+        <p class="block__date-text--value">(05 окт. 2022 - 12 окт. 2022)</p>
+      </div>
+      <div class="block__date-text active">
+        <p class="block__date-text--name">Вся история</p>
+        <p class="block__date-text--value">(05 окт. 2022 - 12 окт. 2022)</p>
+      </div>
+    </div>
+    <p class="block__current">26.09.2022, 10:02</p>
+    <div class="block__express">
+      <div class="visible">
+        <div class="block__express-visible">
+          <div class="visible__name">
+            <p class="visible__name-text">Экспресс, Количество событий: 3</p>
+            <img src="img/arrow_history.svg" alt="" class="visible__name-arrow">
+          </div>
+          <div class="visible__coef">
+            <p class="visible__coef-item red">6,00</p>
+            <p class="visible__coef-item red">5.03</p>
+            <p class="visible__coef-item">0.00 р.</p>
+          </div>
+        </div>
+        <div class="block__express-hidden">
+          <div class="hidden">
+            <div class="hidden__item">
+              <div class="hidden__item-left">
+                <p class="hidden__winner">Победитель: 1</p>
+                <p class="hidden__pair">Лобанов А. - Ермолаев А. (1:3)</p>
+                <div class="hidden__info">
+                  <p class="hidden__info-item">№1902419, 26.09.2022, 11:35</p>
+                  <p class="hidden__info-item">Настольный теннис Лига Про. Мужчины. Зал А4</p>
+                </div>
+              </div>
+              <div class="hidden__item-right">
+                <button class="hidden__delete">
+                  <img src="img/black_close.svg" alt="" class="hidden__delete-image">
+                </button>
+                <p class="visible__coef-item red">1.85</p>
+              </div>
+            </div>
+            <div class="hidden__item">
+              <div class="hidden__item-left">
+                <p class="hidden__winner">Победитель: 1</p>
+                <p class="hidden__pair">Лобанов А. - Ермолаев А. (1:3)</p>
+                <div class="hidden__info">
+                  <p class="hidden__info-item">№1902419, 26.09.2022, 11:35</p>
+                  <p class="hidden__info-item">Настольный теннис Лига Про. Мужчины. Зал А4</p>
+                </div>
+              </div>
+              <div class="hidden__item-right">
+                <button class="hidden__delete">
+                  <img src="img/black_close.svg" alt="" class="hidden__delete-image">
+                </button>
+                <p class="visible__coef-item red">1.85</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="visible">
+        <div class="block__express-visible">
+          <div class="visible__name">
+            <p class="visible__name-text">Экспресс, Количество событий: 3</p>
+            <img src="img/arrow_history.svg" alt="" class="visible__name-arrow">
+          </div>
+          <div class="visible__coef">
+            <p class="visible__coef-item red">6,00</p>
+            <p class="visible__coef-item red">5.03</p>
+            <p class="visible__coef-item">0.00 р.</p>
+          </div>
+        </div>
+        <div class="block__express-hidden">
+          <div class="hidden">
+            <div class="hidden__item">
+              <div class="hidden__item-left">
+                <p class="hidden__winner">Победитель: 1</p>
+                <p class="hidden__pair">Лобанов А. - Ермолаев А. (1:3)</p>
+                <div class="hidden__info">
+                  <p class="hidden__info-item">№1902419, 26.09.2022, 11:35</p>
+                  <p class="hidden__info-item">Настольный теннис Лига Про. Мужчины. Зал А4</p>
+                </div>
+              </div>
+              <div class="hidden__item-right">
+                <button class="hidden__delete">
+                  <img src="img/check.svg" alt="" class="hidden__delete-image">
+                </button>
+                <p class="visible__coef-item green">1.85</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="block__current">26.09.2022, 10:02</p>
+    <div class="block__express">
+      <div class="visible">
+        <div class="block__express-visible">
+          <div class="visible__name">
+            <p class="visible__name-text">Экспресс, Количество событий: 3</p>
+            <img src="img/arrow_history.svg" alt="" class="visible__name-arrow">
+          </div>
+          <div class="visible__coef">
+            <p class="visible__coef-item green">6,00</p>
+            <p class="visible__coef-item green">5.03</p>
+            <p class="visible__coef-item">0.00 р.</p>
+          </div>
+        </div>
+        <div class="block__express-hidden">
+          <div class="hidden">
+            <div class="hidden__item">
+              <div class="hidden__item-left">
+                <p class="hidden__winner">Победитель: 1</p>
+                <p class="hidden__pair">Лобанов А. - Ермолаев А. (1:3)</p>
+                <div class="hidden__info">
+                  <p class="hidden__info-item">№1902419, 26.09.2022, 11:35</p>
+                  <p class="hidden__info-item">Настольный теннис Лига Про. Мужчины. Зал А4</p>
+                </div>
+              </div>
+              <div class="hidden__item-right">
+                <button class="hidden__delete">
+                  <img src="img/black_close.svg" alt="" class="hidden__delete-image">
+                </button>
+                <p class="visible__coef-item red">1.85</p>
+              </div>
+            </div>
+            <div class="hidden__item">
+              <div class="hidden__item-left">
+                <p class="hidden__winner">Победитель: 1</p>
+                <p class="hidden__pair">Лобанов А. - Ермолаев А. (1:3)</p>
+                <div class="hidden__info">
+                  <p class="hidden__info-item">№1902419, 26.09.2022, 11:35</p>
+                  <p class="hidden__info-item">Настольный теннис Лига Про. Мужчины. Зал А4</p>
+                </div>
+              </div>
+              <div class="hidden__item-right">
+                <button class="hidden__delete">
+                  <img src="img/black_close.svg" alt="" class="hidden__delete-image">
+                </button>
+                <p class="visible__coef-item red">1.85</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<section class="overlay"></section>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/history.js"></script>
+</body>
+</html>
